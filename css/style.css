@@ -1,0 +1,330 @@
+*{
+    font-family: sans-serif;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2rem;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.65;
+    font-size: 1.4rem;
+}
+
+.bg-grey{
+    background: #f2f2f2;
+}
+
+.navbar-nav{
+    font-size: medium;
+    margin-right: 30px;
+}
+
+.nav-link:hover{
+    color: coral;
+}
+
+.navbar-brand img{
+    height: 70px;
+    margin-left: 30px;
+}
+
+.card{
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 
+    0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.card:hover{
+    box-shadow: 
+    0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translate(0px, -8px);
+}
+
+
+.card-text{
+    text-align: center;
+}
+
+.card img{
+    width: 50%;
+}
+
+.boton1{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #222f3e;
+    color: white;
+}
+
+.boton1:hover{
+    background-color: goldenrod;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resumen{
+    margin: auto;
+    width: 70%;
+    text-align: center;
+}
+
+.suscripcion{
+    text-align: center;
+}
+
+.suscripcion p{
+    margin: auto;
+    width: 70%;
+
+}
+.suscripcion form .email{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: wheat;
+    font-size: 1.25rem;
+    color: black;
+
+}
+
+.suscripcion form .boton{
+    width: 100%;
+    height: 36px;
+    background-color: #222f3e;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    letter-spacing: .5rem;
+    font-size: 1.25rem;
+}
+
+.suscripcion .boton:hover{
+    background-color: goldenrod;
+    color:black;
+    transition: 0.3s;
+}
+.redes{
+    text-align: center;
+    margin: auto;
+}
+
+.redes ul{
+    list-style: none;
+}
+
+.redes ul li{
+    padding: 10px 0;
+}
+
+.redes ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+}
+
+/* INICIA PRODUCTOS */
+
+.compra1{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.compra1:before{
+    content: "$40.000";
+}
+
+.compra1:hover:before{
+    content: "Comprar ahora";
+}
+
+.compra2{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #20AFC8;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.compra3{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #0B347D;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.compra4{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #9C438C;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.compra5{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #A62525;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.compra6{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #30630F;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.compra7{
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    background-color: #D78709;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+/* CIERRA PRODUCTOS */
+
+/* INICIA NOSOTROS */
+.nosotros p{	
+    width: 42%;
+    height:auto;    
+    margin:auto;
+    margin-bottom: 25px;
+}
+/* CIERRA NOSOTROS */
+
+/* INICIA GARANTIA */
+.garantia p{	
+    width: 65%;
+    height:auto;    
+    margin:auto;
+    margin-bottom: 25px;
+}
+/* CIERRA GARANTIA */
+
+/* INICIA CONTACTO */
+
+.contacto{	
+    width: 45%;
+    height:auto;    
+    margin:auto;
+    margin-bottom: 25px;
+ }
+     /* FORMULARIO DE CONTACTO */
+ form{
+     width: 45%;
+     font-family: 'Courier New', Courier, monospace;
+     align-items: center;
+     margin: auto;
+ }
+ 
+     form input{
+         width: 100%;
+         height: 30px;
+         margin-bottom: 20px;
+     }
+  
+     form .button{
+        margin-top: 20px;
+        width: 100%;
+        height: 36px;
+        background-color: #222f3e;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        color: white;
+        font-size: 1.25rem;         
+     }
+ 
+     form .button:hover{
+        background-color: goldenrod;
+        color:black;
+        transition: .4s;
+    }
